@@ -3,8 +3,8 @@ title: what a shot
 layout: nil
 ---
 
-{% include stylesheet/styles.css %}
-
+{% include stylesheets/styles.css %}
+<link href="{{ site.github.url }}/stylesheets/styles.css" rel="stylesheet">
 # Test page
 This is a test page.
 
