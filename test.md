@@ -8,5 +8,7 @@ layout: nil
 # Test page
 This is a test page.
 
+{{ site.github.url }}
+
 * It has lists
 * of many things
