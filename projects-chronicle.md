@@ -20,7 +20,7 @@ Chronicle is in use now at HCR and is available for anyone else who may find it 
 ## Get Chronicle
 The latest version (v0.1.2bX) is stable enough for production use (and is currently running in a production environment,) but the odd niggle here and there means I'm still calling it *beta* for now.
 
-If you find Chronicle to be useful, maybe buy me a coffee? I'm on [Flattr](https://flattr.com/submit/auto?fid=kzr39z&url=http%3A%2F%2Fgithub.com%2Fcalmcl1%2Fchronicle) and [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FXDR44PHGFEDN)!
+>If you find Chronicle to be useful, maybe buy me a coffee? I'm on [Flattr](https://flattr.com/submit/auto?fid=kzr39z&url=http%3A%2F%2Fgithub.com%2Fcalmcl1%2Fchronicle) and [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FXDR44PHGFEDN)!
 
 ### Windows Users
 Download binaries for [x32 and x64](https://github.com/calmcl1/chronicle/releases). Nice and easy!
