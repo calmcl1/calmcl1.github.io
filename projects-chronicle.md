@@ -74,3 +74,19 @@ Read the [README](//github.com/calmcl1/chronicle#chronicle) for more info.
 Does Chronicle not work the way you expected, or do you have an idea to make Chronicle even more useful?
 
 Head over to the [GitHub Issues](//github.com/calmcl1/chronicle/issues) page and log a new request! Or, those who fancy diving straight in can clone the repo and submit a pull request.
+
+## FAQ
+**Will Chronicle have a GUI?**
+[Probably](//github.com/calmcl1/chronicle/issues/17). However, in order to stop the software growing beyond a reasonable scope, it'll probably be introduced as a separate bit of software that will *talk* to Chronicle. This will allow for quick feature development on both the UI side and core recording side without risking one breaking the other.
+
+**Can Chronicle record web streams?**
+[Possibly](//github.com/calmcl1/chronicle/issues/11). Though, for the same reason, it will probably be part of a different executable that Chronicle-the-logger can take advantage of.
+
+**So Chronicle isn't going to be just one bit of software?**
+I can see Chronicle becoming a suite -- with a UI module, a web-stream-as-virtual-hardware-interface module amongst others. This separation of responsibility keeps development simple, the risk involved with adding new features low, and the likelihood of breaking Chronicle by changing something simple also low.
+
+**I've got a great idea for Chronicle! Or, Chronicle doesn't work**
+Righto - [Add it to the list](//github.com/calmcl1/chronicle/issues).
+
+**Can I get in touch with the developer?**
+Of course! Email me at [mail@callum-mclean.co.uk](mailto:mail@callum-mclean.co.uk).
