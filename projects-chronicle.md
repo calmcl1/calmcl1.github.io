@@ -1,10 +1,11 @@
 ---
 permalink: /projects/chronicle
 title: Chronicle - a logger for radio
-show_downloads: false
 ---
-# [Chronicle](//github.com/calmcl1/projects/chronicle)
+# Chronicle
 **Chronicle is an audio logger intended for radio ROT logging.**
+
+Find Chronicle [on GitHub](//github.com/calmcl1/projects/chronicle)!
 
 ## Background
 By UK law, radio stations are required to keep a [record of their transmissions for **42 days**](http://www.legislation.gov.uk/ukpga/1996/55/section/117), in case any of their programming is investigated by OFCOM (the UK broadcasting regulator) due to a complaint or suspected licence breach.
@@ -27,3 +28,8 @@ Prerequisites:
 * Boost libraries
 * ncurses
 * libsndfile
+
+## Buy me a coffee?
+If you find chronicle to be useful, fancy buying me a coffee?
+
+I'm on [Flattr](https://flattr.com/submit/auto?fid=kzr39z&url=http%3A%2F%2Fgithub.com%2Fcalmcl1%2Fchronicle) and [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FXDR44PHGFEDN)!
