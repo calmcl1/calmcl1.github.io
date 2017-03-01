@@ -85,7 +85,7 @@ Head over to the [GitHub Issues](//github.com/calmcl1/chronicle/issues) page and
 **So Chronicle isn't going to be just one bit of software?**
 I can see Chronicle becoming a suite -- with a UI module, a web-stream-as-virtual-hardware-interface module amongst others. This separation of responsibility keeps development simple, the risk involved with adding new features low, and the likelihood of breaking Chronicle by changing something simple also low.
 
-**I've got a great idea for Chronicle! Or, Chronicle doesn't work**
+**I've got a great idea for Chronicle! Or, Chronicle doesn't work!**
 Righto - [Add it to the list](//github.com/calmcl1/chronicle/issues).
 
 **Can I get in touch with the developer?**
