@@ -68,7 +68,7 @@ Where:
                              Defaults to WAV.
 ```
 
-Read the [README](//github.com/calmcl1/chronicle) for more info.
+Read the [README](//github.com/calmcl1/chronicle#chronicle) for more info.
 
 ## Making Chronicle Better
 Does Chronicle not work the way you expected, or do you have an idea to make Chronicle even more useful?
