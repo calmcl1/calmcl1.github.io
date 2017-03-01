@@ -1,6 +1,7 @@
 ---
 permalink: /projects/chronicle
 title: Chronicle - a logger for radio
+show_downloads: false
 ---
 # [Chronicle](//github.com/calmcl1/projects/chronicle)
 **Chronicle is an audio logger intended for radio ROT logging.**
