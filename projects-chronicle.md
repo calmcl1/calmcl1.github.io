@@ -26,13 +26,15 @@ The latest version (v0.1.2bX) is stable enough for production use (and is curren
 Download binaries for [x32 and x64](https://github.com/calmcl1/chronicle/releases). Nice and easy!
 
 ### Linux Users
-As yet, there are no binaries available (though that will change soon - and with `.deb`s too!)
-For now, [download the source tarball](https://github.com/calmcl1/chronicle/releases) and run `make linux`.
-Prerequisites:
-* [RtAudio](https://www.music.mcgill.ca/~gary/rtaudio/)
-* Boost libraries
-* ncurses
-* libsndfile
+Linux users can also [download the binaries](https://github.com/calmcl1/chronicle/releases). However, you will need to manually install the pre-requisites:
+* `build-essential` and `pkg-config`
+* RtAudio, which you have to build (and `make install`) from source. [Get RtAudio here](https://www.music.mcgill.ca/~gary/rtaudio/index.html).
+* libsndfile, which is in most package managers. (`libsndfile1-dev`)
+* Boost, which is in most package managers (`libboost-dev`).
+* ncurses, which is available in most package managers (`libncurses5-dev`).
+Then, [download the source tarball](https://github.com/calmcl1/chronicle/releases) and run `make linux`.
+
+I'm working on getting `.deb`s built!
 
 ## Using Chronicle
 To start Chronicle recording hourly to the local directory using the default audio device, just run:
