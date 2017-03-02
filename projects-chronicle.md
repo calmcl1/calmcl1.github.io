@@ -28,9 +28,9 @@ Download binaries for [x32 and x64](https://github.com/calmcl1/chronicle/release
 ### Linux Users
 Linux users can also [download the binaries](https://github.com/calmcl1/chronicle/releases). However, you will need to manually install the pre-requisites:
 * `build-essential` and `pkg-config`
-* RtAudio, which you have to build (and `make install`) from source. [Get RtAudio here](https://www.music.mcgill.ca/~gary/rtaudio/index.html).
+* RtAudio, (`librtaudio-dev`)
 * libsndfile, which is in most package managers. (`libsndfile1-dev`)
-* Boost, which is in most package managers (`libboost-dev`).
+* Boost, which is in most package managers (`libboost-all-dev`).
 * ncurses, which is available in most package managers (`libncurses5-dev`).
 Then, [download the source tarball](https://github.com/calmcl1/chronicle/releases) and run `make linux`.
 
