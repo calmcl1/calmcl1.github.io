@@ -26,13 +26,20 @@ The latest version (v0.1.2bX) is stable enough for production use (and is curren
 Download binaries for [x32 and x64](https://github.com/calmcl1/chronicle/releases). Nice and easy!
 
 ### Linux Users
+
+#### With binaries
 Linux users can also [download the binaries](https://github.com/calmcl1/chronicle/releases). However, you will need to manually install the pre-requisites:
-* `build-essential` and `pkg-config`
 * RtAudio, (`librtaudio-dev`)
 * libsndfile, which is in most package managers. (`libsndfile1-dev`)
 * Boost, which is in most package managers (`libboost-all-dev`).
 * ncurses, which is available in most package managers (`libncurses5-dev`).
+
+#### Compiling from scratch
+Or, you can compile chronicle from scratch.
+You'll also need to download the build toolchain: `build-essential` and `pkg-config`
 Then, [download the source tarball](https://github.com/calmcl1/chronicle/releases) and run `make linux`.
+
+The built binary will exist in (srcdir)/build/linux.
 
 I'm working on getting `.deb`s built!
 
