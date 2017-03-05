@@ -12,93 +12,94 @@
 </head>
 
 <body>
-    <header>
-        <h1>Chronicle</h1>
-        <p>Chronicle is an audio logger intended for ROT logging.</p>
-    </header>
-    <section>
-        <h1>About Chronicle</h2>
-            <p>
-                Chronicle is a simple, command-line audio logger, designed to record on-the-hour, every hour. This makes it suitable for
-                basic Record of Transmission logging for most radio stations.
-            </p>
+    <div class="wrapper">
+        <header>
+            <h1>Chronicle</h1>
+            <p>Chronicle is an audio logger intended for ROT logging.</p>
+        </header>
+        <section>
+            <h1>About Chronicle</h2>
+                <p>
+                    Chronicle is a simple, command-line audio logger, designed to record on-the-hour, every hour. This makes it suitable for
+                    basic Record of Transmission logging for most radio stations.
+                </p>
 
-            <h2>The Story</h2>
-            <p>
-                By UK law, radio stations are required to keep a <a href="http://www.legislation.gov.uk/ukpga/1996/55/section/117">record of their transmissions for <strong>42 days</strong></a>,
-                in case any of their programming is investigated by OFCOM (the UK broadcasting regulator) due to a complaint
-                or suspected licence breach.
-            </p>
-            <p>
-                When Halton Community Radio was refurbished in 2016, I oversaw the rebuilding of their IT and networking infrastructure.
-                Part of this included their Record of Transmission logger. When the time came to replace the aging unit,
-                we were faced with a choice: buy a new computer and software, or buy an integrated unit. Neither of these
-                options seemed to offer particularly good value-for-money, so naturally, I ended up writing a basic but functional
-                logger in my spare time!
-            </p>
-            <p>
-                Chronicle is in use now at HCR and is available for anyone else who may find it useful.
-            </p>
+                <h2>The Story</h2>
+                <p>
+                    By UK law, radio stations are required to keep a <a href="http://www.legislation.gov.uk/ukpga/1996/55/section/117">record of their transmissions for <strong>42 days</strong></a>,
+                    in case any of their programming is investigated by OFCOM (the UK broadcasting regulator) due to a complaint
+                    or suspected licence breach.
+                </p>
+                <p>
+                    When Halton Community Radio was refurbished in 2016, I oversaw the rebuilding of their IT and networking infrastructure.
+                    Part of this included their Record of Transmission logger. When the time came to replace the aging unit,
+                    we were faced with a choice: buy a new computer and software, or buy an integrated unit. Neither of these
+                    options seemed to offer particularly good value-for-money, so naturally, I ended up writing a basic but
+                    functional logger in my spare time!
+                </p>
+                <p>
+                    Chronicle is in use now at HCR and is available for anyone else who may find it useful.
+                </p>
 
-            <h1>Get Chronicle</h1>
-            <p>
-                The latest version (<strong>v0.1.2bX</strong>) is stable enough for production use (and is currently running
-                in a production environment,) but the odd niggle here and there means I'm still calling it <em>>beta</em>                for now.
-            </p>
-            <p>
-                <blockquote>
-                    If you find Chronicle to be useful, maybe buy me a coffee? I'm on <a href="https://flattr.com/submit/auto?fid=kzr39z&url=http%3A%2F%2Fgithub.com%2Fcalmcl1%2Fchronicle">Flattr</a> and <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FXDR44PHGFEDN"> PayPal</a>!
-                </blockquote>
-            </p>
+                <h1>Get Chronicle</h1>
+                <p>
+                    The latest version (<strong>v0.1.2bX</strong>) is stable enough for production use (and is currently
+                    running in a production environment,) but the odd niggle here and there means I'm still calling it <em>>beta</em>                    for now.
+                </p>
+                <p>
+                    <blockquote>
+                        If you find Chronicle to be useful, maybe buy me a coffee? I'm on <a href="https://flattr.com/submit/auto?fid=kzr39z&url=http%3A%2F%2Fgithub.com%2Fcalmcl1%2Fchronicle">Flattr</a>                        and <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FXDR44PHGFEDN"> PayPal</a>!
+                    </blockquote>
+                </p>
 
-            <h2>Windows Users</h2>
-            <p>
-                Download binaries for <a href="//github.com/calmcl1/chronicle/releases">x32 and x64</a>. Nice and easy!
-            </p>
+                <h2>Windows Users</h2>
+                <p>
+                    Download binaries for <a href="//github.com/calmcl1/chronicle/releases">x32 and x64</a>. Nice and easy!
+                </p>
 
-            <h2>Linux Users</h2>
-            <h3>With binaries</h3>
-            <p>
-                Linux users can also <a href="//github.com/calmcl1/chronicle/releases">download the binaries</a>. However,
-                you will need to install the following pre-requisites:
-            </p>
-            <ul>
-                <li>RtAudio (
-                    <pre><code>librtaudio-dev</code></pre>)</li>
-                <li>libsndfile (
-                    <pre><code>libsndfile1-dev</code></pre>)</li>
-                <li>Boost (
-                    <pre><code>libboost-all-dev</code></pre>)</li>
-                <li>RtAudio (
-                    <pre><code>librtaudio-dev</code></pre>)</li>
-            </ul>
+                <h2>Linux Users</h2>
+                <h3>With binaries</h3>
+                <p>
+                    Linux users can also <a href="//github.com/calmcl1/chronicle/releases">download the binaries</a>. However,
+                    you will need to install the following pre-requisites:
+                </p>
+                <ul>
+                    <li>RtAudio (
+                        <pre><code>librtaudio-dev</code></pre>)</li>
+                    <li>libsndfile (
+                        <pre><code>libsndfile1-dev</code></pre>)</li>
+                    <li>Boost (
+                        <pre><code>libboost-all-dev</code></pre>)</li>
+                    <li>RtAudio (
+                        <pre><code>librtaudio-dev</code></pre>)</li>
+                </ul>
 
-            <h3>Compiling from scratch</h3>
-            <p>
-                Or, you can compile Chronicle from scratch.<br /> You'll also need the build toolchain:
-                <pre><code>build-essential</code></pre> and
-                <pre><code>pkg-config</code></pre>.<br /> Then, <a href="//github.com/calmcl1/chronicle/releases">download the source tarball</a> and run
-                <pre><code>make linux</code></pre>.
-            </p>
-            <p>
-                The built binary will exist in
-                <pre><code>(srcdir)/build/linux</code></pre>.
-            </p>
-            <p>
-                I'm working on getting
-                <pre><code>.deb</code></pre>s built!
-            </p>
+                <h3>Compiling from scratch</h3>
+                <p>
+                    Or, you can compile Chronicle from scratch.<br /> You'll also need the build toolchain:
+                    <pre><code>build-essential</code></pre> and
+                    <pre><code>pkg-config</code></pre>.<br /> Then, <a href="//github.com/calmcl1/chronicle/releases">download the source tarball</a> and run
+                    <pre><code>make linux</code></pre>.
+                </p>
+                <p>
+                    The built binary will exist in
+                    <pre><code>(srcdir)/build/linux</code></pre>.
+                </p>
+                <p>
+                    I'm working on getting
+                    <pre><code>.deb</code></pre>s built!
+                </p>
 
-            <h1>Using Chronicle</h1>
-            <p>
-                To start using Chronicle to record hourly to the local directory using the default audio device, just run:
-                <br />
-                <pre><code>$ chronicle</code></pre><br /> No configuration needed!
-            </p>
-            <p>
-                However, to configure Chronicle more to your liking, use the following options:
-            </p>
-            <pre>
+                <h1>Using Chronicle</h1>
+                <p>
+                    To start using Chronicle to record hourly to the local directory using the default audio device, just run:
+                    <br />
+                    <pre><code>$ chronicle</code></pre><br /> No configuration needed!
+                </p>
+                <p>
+                    However, to configure Chronicle more to your liking, use the following options:
+                </p>
+                <pre>
 chronicle [-h | --help]
 chronicle [--licence]
 chronicle [-l | --list-devices ]
@@ -127,54 +128,57 @@ Where:
                                  WAV | 16-bit PCM WAV (.wav)
                              Defaults to WAV.
             </pre>
-            <p>
-                Read the <a href="//github.com/calmcl1/chronicle#chronicle">README</a> for more info.
-            </p>
+                <p>
+                    Read the <a href="//github.com/calmcl1/chronicle#chronicle">README</a> for more info.
+                </p>
 
-            <h1>Making Chronicle Better</h1>
-            <p>
-                Does Chronicle not work the way you expected, or do you have an idea to make Chronicle even more useful?
-            </p>
-            <p>Head over the the <a href="//github.com/calmcl1/chronicle/issues">GitHub Issues</a> and log a new request! Or,
-                those who fancy diving straight in can fork the repo and submit a pull request
-            </p>
-            <h1>FAQ</h1>
-            <p>
-                <dl>
-                    <dt>Will Chronicle have a GUI?</dt>
-                    <dd>
-                        <a href="//github.com/calmcl1/chronicle/issues/17">Probably</a>. However, in order to stop the software
-                        growing beyond a reasonable scope, it'll probably be introduced as a separate bit of software that
-                        will *talk* to Chronicle. This will allow for quick feature development on both the UI side and core
-                        recording side without risking one breaking the other.
-                    </dd>
-                    <dt>Can Chronicle record web streams?</dt>
-                    <dd>
-                        <a href="//github.com/calmcl1/chronicle/issues/11">Possibly</a>. Though, for the same reason, it
-                        will probably be part of a different executable that Chronicle-the-logger can take advantage of.
-                    </dd>
-                    <dt>So Chronicle isn't going to be just one bit of software?</dt>
-                    <dd>
-                        I can see Chronicle becoming a suite &emdash; with a UI module, a web-stream-as-virtual-hardware-interface module amongst
-                        others. This separation of responsibility keeps development simple, the risk involved with adding
-                        new features low, and the likelihood of breaking Chronicle by changing something simple also low.
-                    </dd>
-                    <dt>I've got a great idea for Chronicle! Or, Chronicle doesn't work!</dt>
-                    <dd>
-                        Righto - <a href="//github.com/calmcl1/chronicle/issues">add it to the list</a>.
-                    </dd>
-                    <dt>Can I get in touch with the developer?</dt>
-                    <dd>
-                        Of course! Tweet me <a href="//twitter.com/cal_mclean">@cal_mclean</a> Email me at <a href="mailto://mail@callum-mclean.co.uk">mail@callum-mclean.co.uk</a>.
-                    </dd>
+                <h1>Making Chronicle Better</h1>
+                <p>
+                    Does Chronicle not work the way you expected, or do you have an idea to make Chronicle even more useful?
+                </p>
+                <p>Head over the the <a href="//github.com/calmcl1/chronicle/issues">GitHub Issues</a> and log a new request!
+                    Or, those who fancy diving straight in can fork the repo and submit a pull request
+                </p>
+                <h1>FAQ</h1>
+                <p>
+                    <dl>
+                        <dt>Will Chronicle have a GUI?</dt>
+                        <dd>
+                            <a href="//github.com/calmcl1/chronicle/issues/17">Probably</a>. However, in order to stop the
+                            software growing beyond a reasonable scope, it'll probably be introduced as a separate bit of
+                            software that will *talk* to Chronicle. This will allow for quick feature development on both
+                            the UI side and core recording side without risking one breaking the other.
+                        </dd>
+                        <dt>Can Chronicle record web streams?</dt>
+                        <dd>
+                            <a href="//github.com/calmcl1/chronicle/issues/11">Possibly</a>. Though, for the same reason,
+                            it will probably be part of a different executable that Chronicle-the-logger can take advantage
+                            of.
+                        </dd>
+                        <dt>So Chronicle isn't going to be just one bit of software?</dt>
+                        <dd>
+                            I can see Chronicle becoming a suite &emdash; with a UI module, a web-stream-as-virtual-hardware-interface module amongst
+                            others. This separation of responsibility keeps development simple, the risk involved with adding
+                            new features low, and the likelihood of breaking Chronicle by changing something simple also
+                            low.
+                        </dd>
+                        <dt>I've got a great idea for Chronicle! Or, Chronicle doesn't work!</dt>
+                        <dd>
+                            Righto - <a href="//github.com/calmcl1/chronicle/issues">add it to the list</a>.
+                        </dd>
+                        <dt>Can I get in touch with the developer?</dt>
+                        <dd>
+                            Of course! Tweet me <a href="//twitter.com/cal_mclean">@cal_mclean</a> Email me at <a href="mailto://mail@callum-mclean.co.uk">mail@callum-mclean.co.uk</a>.
+                        </dd>
 
-                </dl>
-            </p>
-    </section>
-    <footer>
-        <p>This is the footer</p>
-    </footer>
-    <script lang="js" src="javascripts/scale.fix.js" />
+                    </dl>
+                </p>
+        </section>
+        <footer>
+            <p>This is the footer</p>
+        </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
 </body>
 
 </html>
