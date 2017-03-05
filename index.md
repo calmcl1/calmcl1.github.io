@@ -9,4 +9,4 @@ I work in the vision mixer for TV as my day job, and maintain the technical infr
 Most of my available projects pertain to the radio or broadcasting industry, mostly because that's where I work. I believe in [eating my own dog food](https://en.wikipedia.org/wiki/Eating_your_own_dog_food), so many of these projects are in use in a production environment somewhere.
 
 ### Chronicle
-[Chronicle](projects/chronicle) is a Record-of-Transmission logger for radio.
+[Chronicle](/chronicle) is a Record-of-Transmission logger for radio.
