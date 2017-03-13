@@ -1,6 +1,8 @@
 ---
 permalink: /projects/chronicle
 title: Chronicle - a logger for radio
+redirect-to:
+    - /chronicle
 ---
 # Chronicle
 **Chronicle is an audio logger intended for radio ROT logging.**
