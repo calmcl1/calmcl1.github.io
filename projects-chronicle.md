@@ -1,7 +1,7 @@
 ---
 permalink: /projects/chronicle
 title: Chronicle - a logger for radio
-redirect-to:
+redirect_to:
     - /chronicle
 ---
 # Chronicle
